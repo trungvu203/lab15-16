@@ -1,0 +1,31 @@
+.column{
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+}
+.san-pham >img{
+    width: 220px;
+    height: 220px;
+}
+.san-pham .name{
+    color: red;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.san-pham .price{
+    text-align: center;
+    color: red;
+    font-size: large;
+    font-weight: bolder;
+}
+.san-pham .price del{
+    color: gray;
+}
